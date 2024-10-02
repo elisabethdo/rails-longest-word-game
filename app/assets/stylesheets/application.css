@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ body{
+  font-family: 'Roboto', sans-serif;}
+
+  .container{
+    width: fit-content;
+  }
+
+ .letters-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  /* Add any additional styling such as padding or margin */
+.letter-box {
+  width: 50px; /* Assign box width */
+  height: 50px; /* Assign box height */
+  border: 1px solid #000; /* Add a border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px; /* Space out the boxes */
+  background-color: rgb(102, 130, 241);
+  color:azure;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* horizontal offset, vertical offset, blur radius, and color */
+}
+  /* Add any additional styling such as background-color or font properties */
